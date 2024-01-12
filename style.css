@@ -1,0 +1,89 @@
+html, body { 
+    margin: 0; 
+    padding: 0; 
+}
+
+body { 
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: darkslategrey;
+    color: white; 
+}
+
+/* navigation */
+
+nav { 
+    display: flex; 
+    justify-content: left; 
+}
+
+.j-c-b { 
+    display: flex; 
+    justify-content: space-between; 
+    width: 100%; 
+    height: 51em; 
+}
+
+.j-c-c { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    width: 100%;
+}
+
+#s-1-1 { 
+    display: flex; 
+    justify-content: center;
+    margin-left: 125px; 
+    flex-direction: column; 
+    width: 50%; 
+}
+
+#s-1-2 { 
+    display: flex; 
+    justify-content: center; 
+    width: 50%; 
+}
+
+.page-button { 
+    outline: none; 
+    border: none; 
+    height: 40px; 
+    width: 300px; 
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: slategray; 
+    font-weight: bold; 
+    background-color: #1c2f2f;  
+    margin-top: 10px; 
+}
+
+
+#s-2 { 
+    height: 51em; 
+}
+
+#about-container { 
+    display: flex; 
+    height: 600px; 
+    width: 80%; 
+    background-color: #1c2f2f; 
+}
+
+#trajectory-icon { 
+    width: 50%; 
+    background-color: whitesmoke; 
+}
+
+#about-section { 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    margin-left: 40px; 
+    margin-right: 40px; 
+    width: 50%; 
+
+}
