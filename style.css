@@ -7,7 +7,7 @@ body {
     font-family: 'Bebas Neue', sans-serif;
     font-family: 'Nunito Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
-    background-color: darkslategrey;
+    background-color: black; 
     color: white; 
 }
 
@@ -15,7 +15,16 @@ body {
 
 nav { 
     display: flex; 
-    justify-content: left; 
+    justify-content: space-between;
+    align-items: center; 
+    height: 4em; 
+}
+
+ul li{ 
+    display: inline-block; 
+    text-decoration: none; 
+    list-style-type: none;
+    margin-right: 50px;
 }
 
 .j-c-b { 
@@ -30,60 +39,80 @@ nav {
     justify-content: center; 
     align-items: center; 
     width: 100%;
+    height: 51em; 
 }
 
 #s-1-1 { 
     display: flex; 
     justify-content: center;
-    margin-left: 125px; 
     flex-direction: column; 
-    width: 50%; 
 }
 
-#s-1-2 { 
-    display: flex; 
-    justify-content: center; 
-    width: 50%; 
-}
 
 .page-button { 
     outline: none; 
-    border: none; 
     height: 40px; 
     width: 300px; 
     font-family: 'Bebas Neue', sans-serif;
     font-family: 'Nunito Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
-    color: slategray; 
+    color: white; 
     font-weight: bold; 
-    background-color: #1c2f2f;  
+    background-color: black; 
+    border-color: white; 
     margin-top: 10px; 
 }
 
+.page-button:active { 
+    border-style: outset; 
+}
 
-#s-2 { 
-    height: 51em; 
+.page-button:hover { 
+    background-color: white; 
+    color: black; 
+    transition-duration: .5s; 
+}
+
+#s-2-1 { 
+    border-color: white; 
+    border: 1px solid; 
+    width: 80%; 
+    height: 600px; 
+}
+
+#test-container {
+    border-right: 1px solid; 
+    width: 50%; 
 }
 
 #about-container { 
     display: flex; 
-    height: 600px; 
-    width: 80%; 
-    background-color: #1c2f2f; 
-}
-
-#trajectory-icon { 
-    width: 50%; 
-    background-color: whitesmoke; 
-}
-
-#about-section { 
-    display: flex; 
-    flex-direction: column; 
     justify-content: center; 
-    margin-left: 40px; 
-    margin-right: 40px; 
+    flex-direction: column; 
+    margin-left: 50px; 
+    margin-right: 50px; 
     width: 50%; 
+}
 
+#free-exam { 
+    display: flex; 
+    justify-content: center; 
+    flex-direction: column; 
+    width: 100%; 
+    height: 50%; 
+    border-bottom: 1px solid; 
+}
+
+#premium-exam { 
+    display: flex; 
+    justify-content: center; 
+    flex-direction: column; 
+    width: 100%; 
+    height: 50%; 
+}
+
+.f-e-e { 
+    margin-left: 20px; 
+    margin-right: 40px; 
 }
